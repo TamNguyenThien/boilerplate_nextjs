@@ -19,11 +19,11 @@ const Home: FunctionComponent<InferGetServerSidePropsType<typeof getServerSidePr
                 <title>Theme-template</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Navbar />
-            <HomeBanner />
+            {/* <Navbar />
+            <HomeBanner /> */}
             {/* <Sliders /> */}
 
-            <BlockItem />
+            {/* <BlockItem /> */}
         </DataManager>
     );
 };
